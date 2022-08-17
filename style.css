@@ -124,6 +124,7 @@ a {
     .product__container {
         flex-direction: column;
         width: 90%;
+        max-height: 90%
     }
     .product__img--desktop {
         display: none;
@@ -136,16 +137,6 @@ a {
     }
     .product__item {
         width: 100%;
-    }
-    .product__title,
-    .product__description,
-    .product__btn,
-    .product__price__historical {
-        font-size: 16px;
-    }
-    .product__big-title,
-    .product__price__sale {
-        font-size: 40px;
     }
     .product__price__sale {
         width: 50%;
