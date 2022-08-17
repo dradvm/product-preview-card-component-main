@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="product">
+    <div class="product__container">
+      <div class="product__item ">
+        <img src="./images/image-product-desktop.jpg" class = "product__img product__img--desktop" alt="">
+        <img src="./images/image-product-mobile.jpg" class = "product__img product__img--mobile" alt="">
+      </div>
+      <div class="product__item product__content">
+        <div class="product__content__item product__title">PERFUME</div>
+        <div class="product__content__item product__big-title">Gabrielle Essence Eau De Parfum</div>
+        <div class="product__content__item product__description">
+          A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+          Perfumer-Creator for the House of CHANEL.
+        </div>
+        <div class="product__content__item product__price">
+          <div class="product__price__sale">$149.99</div>
+          <div class="product__price__historical">$169.99</div>
+        </div>
+        <div class="product__content__item">
+          <a href="">
+            <button class="product__btn">
+              <img src="./images/icon-cart.svg" alt="">
+              Add to Cart
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/dradvm">DN</a>.
+  </div>
+</body>
+</html>
