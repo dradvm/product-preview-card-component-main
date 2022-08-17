@@ -124,7 +124,7 @@ a {
     .product__container {
         flex-direction: column;
         width: 90%;
-        max-height: 90%
+        max-height: 95%
     }
     .product__img--desktop {
         display: none;
