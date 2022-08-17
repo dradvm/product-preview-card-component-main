@@ -139,10 +139,10 @@ a {
         width: 100%;
     }
     .product__price__sale {
-        width: 50%;
+        width: 60%;
     }
     .product__price__historical {
-        width: 50%;
+        width: 40%;
     }
     .product__btn {
         padding: 16px 0;
